@@ -16,9 +16,9 @@ Tambah = input_1 + input_2
 Kurang = input_1 - input_2 
 Kali = input_1 * input_2
 
-total_tambah = round(Tambah)
-total_kurang = round(Kurang)
-total_kali = round(Kali)
+total_tambah = float(Tambah)
+total_kurang = float(Kurang)
+total_kali = float(Kali)
 
 Tambah, Kurang, Kali = st.columns([1,1,1])
 
