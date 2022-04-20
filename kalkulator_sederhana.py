@@ -35,6 +35,6 @@ with Kali:
      st.write('Hasil nya', total_kali)
 
 with Bagi:
-  if st.button(':'):
+  if st.button(':', pass):
      st.write('Hasil nya', total_bagi)
 
