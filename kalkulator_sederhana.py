@@ -19,7 +19,7 @@ Bagi = input_1 / input_2
 total_tambah = round(Tambah)
 total_kurang = round(Kurang)
 total_kali = round(Kali)
-total_bagi = round(Bagi, min_value=1)
+total_bagi = round(Bagi)
 
 Tambah, Kurang, Kali, Bagi = st.columns([1,1,1,1])
 
