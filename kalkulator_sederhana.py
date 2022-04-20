@@ -26,19 +26,19 @@ Tambah, Kurang, Kali, Bagi = st.columns([1,1,1,1])
 
 with Tambah:
   if st.button('+'):
-#      st.write('Hasil nya', total_tambah)
+     st.write('Hasil nya', total_tambah)
 
 with Kurang:
   if st.button('-'):
-#      st.write('Hasil nya', total_kurang)
+     st.write('Hasil nya', total_kurang)
   
 with Kali:
   if st.button('X'):
-#      st.write('Hasil nya', total_kali)
+     st.write('Hasil nya', total_kali)
 
 with Bagi:
   if st.button(':'):
-#      st.write('Hasil nya', total_bagi)
+     st.write('Hasil nya', total_bagi)
 
 Nums = [total_tambah, total_kurang, total_kali, total_bagi]
 st.subheader(f'Hasil nya : {Nums}')
