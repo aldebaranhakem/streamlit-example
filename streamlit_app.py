@@ -23,11 +23,11 @@ with Tambah:
   st.write('Hasil nya', Tambah)
 
 with Kurang:
-  if st.button('-', Kurang)
+  if st.button('-')
   st.write('Hasil nya', Kurang)
   
 with Kali:
- if st.button('X', Kali)
+ if st.button('X')
     st.write('Hasil nya', Kali)
 
 # st.write('Hasil nya',Num) 
