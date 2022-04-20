@@ -1,9 +1,4 @@
-import pandas as pd
-import math as mt
 import streamlit as st
-# from google.colab import drive
-# drive.mount('/content/drive')
-
 """
 # Kalkulator sederhana
 
@@ -14,8 +9,8 @@ serta pengimplementasian untuk membuat ui pada kalkulator yang ada (sederhana)
 
 '''kalkulator penjumlahan'''
 
-A = st.number_input('Insert a number:')
-B = st.number_input('Insert a number:')
+A = st.input(int('Insert a number:'))
+B = st.input(int('Insert a number:'))
 
 Tambah = st.button(f'Tambah {A + B}') 
 Kurang = st.button(f'Kurang {A - B}')
