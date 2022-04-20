@@ -8,7 +8,7 @@ serta pengimplementasian untuk membuat ui pada kalkulator yang ada (sederhana)
 
 '''kalkulator penjumlahan'''
 
-input_1 = st.number_input('Masukan angka 1:', min_value=0)
+input_1 = st.number_input('Masukan angka 1:', min_value=1)
 input_2 = st.number_input('Masukan angka 2:', min_value=0)
 
 Tambah = input_1 + input_2 
