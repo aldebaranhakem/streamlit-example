@@ -16,7 +16,7 @@ Tambah = input_1 + input_2
 Kurang = input_1 - input_2 
 Kali = input_1 * input_2
 
-Tambah, Kurang, Kali = st.columns(3)
+Tambah, Kurang, Kali = st.columns([1,1,1])
 
 with Tambah:
   if st.button('+'):
