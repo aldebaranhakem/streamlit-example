@@ -19,15 +19,15 @@ Kali = input_1 * input_2
 Tambah, Kurang, Kali = st.columns(3)
 
 with Tambah:
-  if st.button('+')
+  if st.button('+', Tambah)
   st.write('Hasil nya', Tambah)
 
 with Kurang:
-  if st.button('-')
+  if st.button('-', Kurang)
   st.write('Hasil nya', Kurang)
   
 with Kali:
- if st.button('X')
+ if st.button('X', Kali)
     st.write('Hasil nya', Kali)
 
 # st.write('Hasil nya',Num) 
