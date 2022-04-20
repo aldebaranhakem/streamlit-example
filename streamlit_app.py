@@ -14,4 +14,4 @@ input_2 = st.number_input('Masukan angka 2:')
 
 Tambah = st.button('+', input_1 + input_2)
 
-st.write('Hasil nya',int(Tambah))
+st.write('Hasil nya',float(Tambah))
