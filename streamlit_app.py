@@ -1,9 +1,8 @@
 import pandas as pd
 import math as mt
 import streamlit as st
-# 
-from google.colab import drive
-drive.mount('/content/drive')
+# from google.colab import drive
+# drive.mount('/content/drive')
 
 """
 # Kalkulator sederhana
