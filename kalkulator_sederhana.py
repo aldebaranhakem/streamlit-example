@@ -38,5 +38,3 @@ with Bagi:
   if st.button(':'):
      st.write('Hasil nya', total_bagi)
 
-Nums = [total_tambah, total_kurang, total_kali, total_bagi]
-st.subheader(f'Hasil nya : {Nums}')
