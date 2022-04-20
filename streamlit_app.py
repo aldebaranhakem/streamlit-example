@@ -20,14 +20,14 @@ Tambah, Kurang, Kali = st.columns(3)
 
 with Tambah:
   if st.button('+'):
-  st.write('Hasil nya', Tambah)
+     st.write('Hasil nya', Tambah)
 
 with Kurang:
   if st.button('-'):
-  st.write('Hasil nya', Kurang)
+     st.write('Hasil nya', Kurang)
   
 with Kali:
- if st.button('X'):
-    st.write('Hasil nya', Kali)
+  if st.button('X'):
+     st.write('Hasil nya', Kali)
 
 # st.write('Hasil nya',Num) 
