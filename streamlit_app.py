@@ -9,6 +9,6 @@ serta pengimplementasian untuk membuat ui pada kalkulator yang ada (sederhana)
 
 '''kalkulator penjumlahan'''
 
-input_1 = st.input_number('Masukan angka 1:')
-input_2 = st.input_number('Masukan angka 2:')
+input_1 = st.number_input('Masukan angka 1:')
+input_2 = st.number_input('Masukan angka 2:')
 
