@@ -13,7 +13,7 @@ input_2 = st.number_input('Masukan angka 2:', min_value=0)
 Tambah = input_1 + input_2 
 Kurang = input_1 - input_2 
 Kali = input_1 * input_2
-Bagi = input_1 : input_2
+Bagi = input_1 / input_2
 
 total_tambah = float(Tambah)
 total_kurang = float(Kurang)
