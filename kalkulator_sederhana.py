@@ -17,7 +17,7 @@ Kali = input_1 * input_2
 try:
     Bagi = input_1 / input_2    
 except ZeroDivisionError:
-    Bagi = 'null'
+    Bagi = st.write('null')
 
 total_tambah = round(Tambah)
 total_kurang = round(Kurang)
