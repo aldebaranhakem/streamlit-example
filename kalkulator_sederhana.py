@@ -14,7 +14,10 @@ input_2 = st.number_input('Masukan angka 2:', min_value=0)
 Tambah = input_1 + input_2 
 Kurang = input_1 - input_2 
 Kali = input_1 * input_2
+try:
 Bagi = input_1 / input_2 
+except ZeroDivisionError:
+Bagi = 0
 
 total_tambah = round(Tambah)
 total_kurang = round(Kurang)
